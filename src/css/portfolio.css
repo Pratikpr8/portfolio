@@ -1,0 +1,50 @@
+.grid{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-gap: 30px;
+}
+
+.portfolio{
+    position: relative; 
+}
+
+.title{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.portfolio img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.portfolio .box{
+    position: relative;
+}
+
+.portfolio .overlay h1{
+    margin: 0;
+    font-size: 20px;
+}
+
+.portfolio .overlay{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255,255,255,0.65);
+    z-index: 1;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+
+.portfolio .box:hover .overlay{
+    opacity: 1;
+}
+
