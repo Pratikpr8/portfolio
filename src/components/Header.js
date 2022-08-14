@@ -2,13 +2,15 @@ import React, { useState } from "react";
 import { FaBars } from "react-icons/fa";
 
 export default function Header() {
+  
   const [active, setActive] = useState("nav_menu");
   const [icon, setIcon] = useState("nav_toggler");
 
 
   const navToggle = () => { 
     if (active === "nav_menu"){
-      setActive("nav_menu nav_active")
+      // setActive("nav_menu nav_active")
+      setActive("nav_menu_active nav_active")
     } else setActive("nav_menu")
 
       if(icon === 'nav_toggler'){

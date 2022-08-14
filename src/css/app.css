@@ -45,6 +45,10 @@ button{
     html{
         max-width: 100%;
     }
+
+    body{
+        word-break: break-all;
+    }
     
     .home{
         height: 50vh;
@@ -69,6 +73,14 @@ button{
 
     .grid{
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .baget{
+        font-size: .5rem;
+        padding: none;
+    }
+    .about .right{
+        padding: 20px 30px;
     }
 
 }

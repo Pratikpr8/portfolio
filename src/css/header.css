@@ -51,7 +51,6 @@ header a:hover{
 .nav_toggler{
     font-size: 20px;
     display: none;
-    overflow-x: hidden;
 }
 
 .logo{
@@ -59,31 +58,47 @@ header a:hover{
 
 }
 
+.nav_active{
+    transform:translateX(0%) !important;
+}
+
+
 @media (max-width:800px) {
 
     .nav_toggler{
         display: block;
     }
-    
+
     .nav_menu{
+         display: none !important; 
+        display: none ; 
+    } 
+    
+    .nav_menu_active {
+        /* display: block !important; */
+        /* display: block ; */
         position: absolute;
         top: 10vh;
         left: 0;
         height: 100vh;
         padding: 50px;
         width: 100%;
+        transform:translateX(100%);
+        /* transform:translateX(100%) !important; */
         flex-direction: column;
         background-color: #a06c47;
-        transform:translateX(100%);
         transition: 0.5s ease-in;
         z-index: 999; 
     }
 
+    /* .nav_active{
+        display: block;
+
+    } */
+
     header a{
         color: #fff;
     }
+   
 }
 
-.nav_active{
-    transform:translateX(0%);
-}
