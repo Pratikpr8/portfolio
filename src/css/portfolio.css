@@ -6,11 +6,12 @@
 
 .portfolio{
     position: relative; 
+    color: #FDFFFF;
 }
 
 .title{
     font-size: 30px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .portfolio img {
@@ -27,6 +28,9 @@
     margin: 0;
     font-size: 20px;
 }
+.portfolio .overlay h1 a{ 
+    color: #0F1B07;
+}
 
 .portfolio .overlay{
     position: absolute;
@@ -34,17 +38,26 @@
     width: 100%;
     padding: 20px 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     align-items: center;
-    background-color: rgba(255,255,255,0.65);
+    background-color: rgba(255,255,255,0.75);
     z-index: 1;
     opacity: 0;
     transition: 0.5s;
-
 }
-
 
 .portfolio .box:hover .overlay{
     opacity: 1;
 }
+
+.baget.baget-new{
+    color: #0F1B07;
+    background-color:#FDFFFF;
+}
+
+.app-info{
+    color: #0F1B07;
+}
+
+
 

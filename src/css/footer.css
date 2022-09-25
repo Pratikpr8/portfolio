@@ -1,12 +1,13 @@
 footer{
     padding: 50px 0;
     text-align: center;
-    background-color: #000;
-    color: #fff;
+    background-color: #FDFFFF;
+    color:#265C00;
 
 }
 
 footer p{
-    color: #fff;
-    
+    color:inherit;
+    font-size: 1.3em;
+
 }

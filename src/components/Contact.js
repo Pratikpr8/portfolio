@@ -6,8 +6,8 @@ export default function Contact() {
       <section className="contact" id="contact">
         <div className="container flexSB">
           <div className="left row">
-            <span className="baget">Contact</span>
-            <h2 className="contact-me">This is how you can reach me:-</h2>
+            <span className="baget baget-new">Contact</span>
+            <h2 className="contact-me">You can reach me through:-</h2>
           </div>
           <div className="right row">
             <div className="box">

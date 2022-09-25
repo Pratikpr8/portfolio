@@ -27,18 +27,20 @@
  }
 
  .details .name h2{
-    color: #767676;
+    color: #FDFFFF;
     margin-bottom: 8px;
  }
 
  .details .name .bland{
-   color: #000;
+   color: #0F1B07;
  }
 
  .contact-me{
    margin-top: 25px;
+   color: #FFF;
  }
 
  .details .bland a{
    text-decoration: underline;
+   color: #265C00;
  }

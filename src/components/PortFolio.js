@@ -4,12 +4,11 @@ import projectImage2 from '../images/project2.png';
 
 export default function Portfolio() {
   return (
-    <>
       <section className="portfolio mtop" id="portfolio">
         <div className="container">
           <div className="head flexSB">
             <div className="left">
-              <span className="baget">Portfolio</span>
+              <span className="baget baget-new">Portfolio</span>
               <h1 className="title">My Projects</h1>
             </div>
           </div>
@@ -28,7 +27,7 @@ export default function Portfolio() {
                   </h1>
                 </div>
               </div>
-              <p>
+              <p className="app-info">
                 A Todo App app to help you keep track of your things to do with
                 function of adding, deleting, editing and completing your
                 todos's.
@@ -48,7 +47,7 @@ export default function Portfolio() {
                     </h1>
                 </div>
               </div>
-              <p>
+              <p className="app-info">
                 A Tenzies game which keeps track of the number of rolls and time
                 you take to complete the game so that you can play with your
                 friends.
@@ -68,7 +67,7 @@ export default function Portfolio() {
                     </h1>
                 </div>
               </div>
-              <p>
+              <p className="app-info">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. At
                 dolorum fugit inventore aspernatur tenetur. Placeat, assumenda.
                 Eos, nemo natus. Enim optio consequatur quisquam dignissimos
@@ -78,6 +77,5 @@ export default function Portfolio() {
           </div>
         </div>
       </section>
-    </>
   );
 }

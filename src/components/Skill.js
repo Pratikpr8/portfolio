@@ -19,8 +19,8 @@ export default function Skill() {
         <section className="skill mtop">
             <div className="container flexSB">
                 <div className="left row">
-                    <h1>My Skills</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, fugit?</p>
+                <span className="baget">My Skills</span>
+                    <h1>These are my skills:-</h1>
                 </div>
 
                 <div className="right row">

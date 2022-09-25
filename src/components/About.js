@@ -19,11 +19,11 @@ export default function About() {
               do. Everyday I try to acquire and update myself with the knowledge
               and skills necessary to have a better career and develop myself.
             </p>
-            <button className="primary-btn"> 
-                <a className="cv-link" href={cv} target="_blank" rel="noopener noreferrer"> 
+                <a href={cv} target="_blank" rel="noopener noreferrer"> 
+                <button className="primary-btn"> 
                   View CV 
-                </a>
                </button>
+                </a>
           </div>
         </div>
       </section>

@@ -1,22 +1,25 @@
 .home{
-    height: 90vh;
+    height: calc(100vh - 70px);
     position: relative;
+    overflow: hidden;
 }
 
 .home h1{
     font-size: 6rem;
     margin-top: 45%;
     margin-bottom: 10px;
-    color: #767676;
+    color: #FDFFFF;
+    animation: name-enter 500ms;
 }
 
 .home h3{
     font-size: 1.2em;
-    color: #767676;
+    color: #FDFFFF;
+    animation: info-enter 700ms backwards;
 }
 
 
-/* .home--section img{
+.home img{
     position: absolute;
     top: 0;
     right: 0;
@@ -25,17 +28,19 @@
     clip-path: polygon(28% 0,100% 0, 100% 50%, 
     100% 100%,26% 100%,0 50%);
     object-fit: cover;
-} */
-
-.home-container__right-row{
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 50%;
-    height: 100%;
-    clip-path: polygon(28% 0,100% 0, 100% 50%, 
-    100% 100%,26% 100%,0 50%);
-    /* background-color: rgb(225 228 243); */
-    background-color: rgb(157, 165, 201);
 }
+
+
+@keyframes name-enter{
+    from{
+        transform: translateX(-100vw);
+    }
+}
+@keyframes info-enter{
+    from{
+        transform: translateX(100vw);
+    }
+}
+
+
 
