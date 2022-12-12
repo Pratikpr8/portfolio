@@ -1,6 +1,6 @@
 import React from "react";
 import mypic from '../images/mypic.jpg';
-import cv from '../files/sample.txt';
+import cv from '../files/CV-Pratik-Puri.pdf';
 
 
 export default function About() {

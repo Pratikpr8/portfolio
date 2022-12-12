@@ -1,6 +1,7 @@
 import React from "react";
 import projectImage1 from '../images/project1.png';
 import projectImage2 from '../images/project2.png';
+import projectImage3 from '../images/project3.png';
 
 export default function Portfolio() {
   return (
@@ -57,21 +58,18 @@ export default function Portfolio() {
             <div>
               <div className="box">
                 <div className="img">
-                  <img src={projectImage1} alt="project 1 ss" />
+                  <img src={projectImage3} alt="project 3 ss" />
                 </div>
                 <div className="overlay">
                   <h1>
-                  <a href="https://github.com/Pratikpr8/" target="_blank" rel="noopener noreferrer">
-                  Project 3
+                  <a href="https://github.com/Pratikpr8/movie-finder" target="_blank" rel="noopener noreferrer">
+                  Movie Finder
                   </a>                 
                     </h1>
                 </div>
               </div>
               <p className="app-info">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. At
-                dolorum fugit inventore aspernatur tenetur. Placeat, assumenda.
-                Eos, nemo natus. Enim optio consequatur quisquam dignissimos
-                non.
+                A Movie finder app which can help you to find any movies of your choice from the internet.
               </p>
             </div>
           </div>

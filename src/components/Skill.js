@@ -29,7 +29,7 @@ export default function Skill() {
                     <Progress done="50" title="Git"/>
                     <Progress done="60" title="CSS"/>
                     <Progress done="50" title="SCSS/SASS"/>
-                    <Progress done="50" title="Bootstrap, Material UI"/>
+                    <Progress done="50" title="Bootstrap"/>
                 </div>
             </div>
         </section>
