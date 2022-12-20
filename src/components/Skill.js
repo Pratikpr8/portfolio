@@ -1,38 +1,36 @@
-import React from 'react'
+import React from "react";
 
 export default function Skill() {
-
-
-    const Progress = ({done,title}) =>{
-        return(
-            <div className="progress">
-                <div className="progress-done" style={{opacity:1,width:`${done}%`}}>
-                    <h4>{title}</h4>
-                    {/* <h4>{done}%</h4> */}
-                </div>
-            </div>
-        )
-    }
+  const Skill = ({ title }) => {
+    return (
+      <div className="skills-list">
+        <div>
+          <h4>{title}</h4>
+        </div>
+      </div>
+    );
+  };
 
   return (
     <>
-        <section className="skill mtop">
-            <div className="container flexSB">
-                <div className="left row">
-                <span className="baget">My Skills</span>
-                    <h1>These are my skills:-</h1>
-                </div>
+      <section className="skill mtop">
+        <div className="container flexSB">
+          <div className="left row">
+            <span className="baget">My Skills</span>
+            <h1>These are my skills:-</h1>
+          </div>
 
-                <div className="right row">
-                    <Progress done="50" title="React"/>
-                    <Progress done="60" title="JavaScript"/>
-                    <Progress done="50" title="Git"/>
-                    <Progress done="60" title="CSS"/>
-                    <Progress done="50" title="SCSS/SASS"/>
-                    <Progress done="50" title="Bootstrap"/>
-                </div>
-            </div>
-        </section>
+          <div className="right row">
+            <Skill title="React" />
+            <Skill title="JavaScript" />
+            <Skill title="HTML" />
+            <Skill title="Git" />
+            <Skill title="CSS" />
+            <Skill title="SCSS/SASS" />
+            <Skill title="Bootstrap" />
+          </div>
+        </div>
+      </section>
     </>
-  )
+  );
 }

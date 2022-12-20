@@ -10,7 +10,7 @@ export default function Home() {
             <h1>
               pratik puri
             </h1>
-            <h3>Front End Developer, Web Developer, Programmer</h3>
+            <h3>Front-End, Web Developer and Programmer</h3>
           </div>
           <div className="right row">
             <div className="img">
